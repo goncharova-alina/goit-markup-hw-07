@@ -6,7 +6,7 @@
     <title>Портфолио</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/portfolio.min.css">
 </head>
 <body>
     <!-- ШАПКА САЙТА -->
@@ -179,7 +179,7 @@
                 </address>
             </div>
             <div class="subscribe-wrapper">
-                <p class="subscribe-subtitle subtitle">присоединяйтесь</p>
+                <b class="subscribe-subtitle subtitle">присоединяйтесь</b>
                 <ul class="subscribe-list list">
                     <li class="subscribe-list-item">
                         <a class="subscribe-list-item-link link" href=""  aria-label="иконка инстаграма">
@@ -211,8 +211,19 @@
                     </li>
                 </ul>
             </div>
+            <div class="subscribe-input-wrapper">
+                <b class="subscribe-input-subtitle subtitle">Подпишитесь на рассылку</b>
+                <form action="" class="subscribe-form">
+                    <input type="email" class="submit-form-input" name="user-email" placeholder="E-mail" required>
+                    <button type="submit" class="submit-form-button">Подписаться
+                       <svg class="submit-form-button-svg">
+                           <use class="" href="./images/sprite.svg#icon-telegram"></use>
+                       </svg>
+             
+                    </button>
+                </form>
+            </div>
         </div>
-
     </footer>
 </body>
 </html>

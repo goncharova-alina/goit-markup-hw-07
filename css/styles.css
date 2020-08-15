@@ -59,7 +59,7 @@ body {
     letter-spacing: 0.03em;
     margin-bottom: 50px;
     text-align: center;
-    color: var(--title-light-theme-color)
+    color: $title-light-theme-color
 }
 /* Логотип */
 .logo-header {
@@ -68,7 +68,7 @@ body {
 .logo-header,
 .logo-footer,
 .logo-element{
-    font-family: var(--secondary-font);
+    font-family: $secondary-font;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -76,7 +76,7 @@ body {
 }
 
 .logo-element {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 .logo-header{
     color: #000000
@@ -113,7 +113,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--title-light-theme-color);
+    color: $ttitle-light-theme-color;
 }
 
 .navigation-list-link {
@@ -134,10 +134,10 @@ body {
     width: 100%;
     height: 4px;
     border-radius: 2px;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
 }
 .current {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 .navigation-list-link:hover, 
 .navigation-list-link:focus,
@@ -146,14 +146,14 @@ body {
 .header-tel-link:hover,
 .header-tel-link:focus
 {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 .header-mail-link,
 .header-tel-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--text-description-color);
+    color: $text-description-color;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
  
@@ -196,16 +196,16 @@ font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: var(--title-dark-theme-color);
+color: $title-dark-theme-color;
 }
 .modal-btn{
-    font-family: var(--main-font);
+    font-family: $main-font;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
-    background-color:var(--accent-color);
-    color:var(--title-dark-theme-color);
+    background-color:$accent-color;
+    color:$title-dark-theme-color;
     border-style: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -262,14 +262,14 @@ color: var(--title-dark-theme-color);
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--title-light-theme-color);
+    color: $ttitle-light-theme-color;
 }
 .discription{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: var(--text-description-color)
+    color: $text-description-color
 }
 /* Услуги секция */
 .services-subtitle {
@@ -287,7 +287,7 @@ color: var(--title-dark-theme-color);
     background-color: rgba(47, 48, 58, 0.8);
     padding-top: 27px;
     padding-bottom: 27px;
-    color: var(--title-dark-theme-color);
+    color: $title-dark-theme-color;
 }
 .services-list {
     display: flex;
@@ -329,7 +329,7 @@ color: var(--title-dark-theme-color);
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-light-theme-color);
+    color: $ttitle-light-theme-color;
     margin-bottom: 10px;
     }
 .crewman-list-item-position{
@@ -338,7 +338,7 @@ color: var(--title-dark-theme-color);
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--text-description-color);
+    color: $text-description-color;
     margin-bottom: 16px;
 }
 .social-list {
@@ -363,7 +363,7 @@ color: var(--title-dark-theme-color);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-item-link:hover{
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     color: #FFFFFF;
     
 }
@@ -401,8 +401,8 @@ color: var(--title-dark-theme-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-client-list-item-link:hover {
-    border-color: var(--accent-color);
-    color: var(--accent-color);
+    border-color: $accent-color;
+    color: $accent-color;
 }
 
 /* Футер */
@@ -421,7 +421,7 @@ color: var(--title-dark-theme-color);
 }
 
 .logo-footer{
-    color: var(--title-dark-theme-color);
+    color: $title-dark-theme-color;
     margin-bottom: 20px;
 }
 .address-office{
@@ -430,7 +430,7 @@ color: var(--title-dark-theme-color);
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0.03em;
-    color: var(--title-dark-theme-color);
+    color: $title-dark-theme-color;
     margin-bottom: 9px;
 }
 .footer-mail-link {
@@ -447,7 +447,7 @@ color: var(--title-dark-theme-color);
 }
 .subscribe-subtitle {
     display: block;
-    color: var(--title-dark-theme-color);
+    color: $title-dark-theme-color;
     margin-bottom: 20px;
 }
 .subscribe-list {
@@ -490,7 +490,7 @@ color: var(--title-dark-theme-color);
 }
 .subscribe-input-subtitle {
     display: block;
-    color: var(--title-dark-theme-color);
+    color: $title-dark-theme-color;
     margin-bottom: 20px;
 }
 .submit-form-input {
@@ -526,15 +526,15 @@ color: var(--title-dark-theme-color);
     letter-spacing: 0.06em;
     width: 200px;
     height: 50px;
-    background-color: var(--accent-color);
-    color: var(--title-dark-theme-color);
+    background-color: $accent-color;
+    color: $title-dark-theme-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     margin-left: 12px;
     border: none;
 }
 .submit-form-button-svg {
-    fill: var(--title-dark-theme-color);
+    fill: $title-dark-theme-color;
     width: 24px;
     height: 24px;
     margin-left: 10px;
@@ -592,8 +592,8 @@ color: var(--title-dark-theme-color);
 .radio-btn:hover,
 .radio-btn:focus 
 {
-    background-color: var(--accent-color);
-    color: var(--title-dark-theme-color);
+    background-color: $accent-color;
+    color: $title-dark-theme-color;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
 }
 .portfolio-list-item-img {
@@ -637,7 +637,7 @@ color: var(--title-dark-theme-color);
     line-height: 2;
     margin-bottom: 4px;
     letter-spacing: 0.06em;
-    color: var(--title-light-theme-color);
+    color: $ttitle-light-theme-color;
     
 }
 .portfolio-list-item-description{
@@ -645,7 +645,7 @@ color: var(--title-dark-theme-color);
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
-    color: var(--text-description-color);
+    color: $text-description-color;
 }
 .portfolio-card {
     padding-top: 20px;
@@ -725,7 +725,7 @@ color: var(--title-dark-theme-color);
 .modal-form-input:not(:placeholder-shown),
 .modal-form-messege:not(:placeholder-shown) {
     outline: none; 
-    border-color: var(--accent-color);
+    border-color: $accent-color;
 }
 .modal-form-input {
     height: 40px;
@@ -753,7 +753,7 @@ color: var(--title-dark-theme-color);
     color: #FFFFFF;
     border: none;
     border-radius: 4px;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     cursor: pointer;
 }
 .modal-form-btn:hover {
@@ -770,11 +770,11 @@ color: var(--title-dark-theme-color);
 .modal-form-input:hover + .modal-form-label,
 .modal-form-input:not(:placeholder-shown) + .modal-form-label {
     transform: translate(-30px, -40px);
-    color: var(--accent-color);
+    color: $accent-color;
 }
 .modal-form-input:focus ~ .modal-form-svg,
 .modal-form-input:hover ~ .modal-form-svg {
-    fill: var(--accent-color); 
+    fill: $accent-color; 
 }
 .modal-form-option-label {
     display: flex;
@@ -789,7 +789,7 @@ color: var(--title-dark-theme-color);
     color: #757575;
 } 
 .modal-form-option-span a {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 .modal-form-checkbox {
     position: absolute;

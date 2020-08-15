@@ -4,7 +4,7 @@
 .logo-header,
 .logo-footer,
 .logo-element{
-    font-family: var(--secondary-font);
+    font-family: $secondary-font;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -12,7 +12,7 @@
 }
 
 .logo-element {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 .logo-header{
     color: #000000

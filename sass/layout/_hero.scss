@@ -25,21 +25,21 @@
     margin-bottom: 30px;
 }
 .hero-title{
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: var(--title-dark-theme-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $title-dark-theme-color;
 }
 .modal-btn{
-    font-family: var(--main-font);
+    font-family: $main-font;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
-    background-color:var(--accent-color);
-    color:var(--title-dark-theme-color);
+    background-color:$accent-color;
+    color:$title-dark-theme-color;
     border-style: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;

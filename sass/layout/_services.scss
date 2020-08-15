@@ -13,7 +13,7 @@
     background-color: rgba(47, 48, 58, 0.8);
     padding-top: 27px;
     padding-bottom: 27px;
-    color: var(--title-dark-theme-color);
+    color: $title-dark-theme-color;
 }
 .services-list {
     display: flex;
