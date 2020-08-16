@@ -1,19 +1,9 @@
 .logo-header {
+    @extend %font-for-logo;
     margin-right: 85px;
-}
-.logo-header,
-.logo-footer,
-.logo-element{
-    font-family: $secondary-font;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-}
-
-.logo-element {
-    color: $accent-color;
-}
-.logo-header{
     color: #000000
+}
+.logo-element {
+    @extend %font-for-logo;
+    color: $accent-color;
 }

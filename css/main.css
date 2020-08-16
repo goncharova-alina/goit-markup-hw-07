@@ -61,6 +61,23 @@ body {
   color: #212121;
 }
 
+.subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.discription {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 .backdrop {
   position: fixed;
   left: 0;
@@ -268,13 +285,7 @@ body {
   pointer-events: none;
 }
 
-.logo-header {
-  margin-right: 85px;
-}
-
-.logo-header,
-.logo-footer,
-.logo-element {
+.logo-header, .logo-element, .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -282,12 +293,22 @@ body {
   letter-spacing: 0.03em;
 }
 
-.logo-element {
-  color: #2196F3;
+.navigation-list-link, .header-mail-link,
+.header-tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
 }
 
 .logo-header {
+  margin-right: 85px;
   color: #000000;
+}
+
+.logo-element {
+  color: #2196F3;
 }
 
 .header .conteiner {
@@ -308,23 +329,13 @@ body {
   margin-right: 50px;
 }
 
-.header-mail-link {
-  margin-right: 30px;
-}
-
 .header-contacts {
   display: flex;
   margin-left: auto;
 }
 
-.navigation-list-link,
-.header-mail-link,
-.header-tel-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #212121;
+.header-mail-link {
+  margin-right: 30px;
 }
 
 .navigation-list-link {
@@ -378,6 +389,10 @@ body {
 }
 
 .hero {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 280px;
+  background-color: #2F303A;
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -388,18 +403,6 @@ body {
   background-size: cover;
 }
 
-.hero {
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 280px;
-  background-color: #2F303A;
-}
-
-.hero-title {
-  margin-top: 0px;
-  margin-bottom: 30px;
-}
-
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -407,6 +410,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .modal-btn {
@@ -475,24 +480,12 @@ body {
   margin-bottom: 10px;
 }
 
-.subtitle {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
-}
-
-.discription {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-
 .services-subtitle {
+  text-align: center;
+  background-color: rgba(47, 48, 58, 0.8);
+  padding-top: 27px;
+  padding-bottom: 27px;
+  color: #ffffff;
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -502,14 +495,6 @@ body {
 
 .services-img {
   display: block;
-}
-
-.services-subtitle {
-  text-align: center;
-  background-color: rgba(47, 48, 58, 0.8);
-  padding-top: 27px;
-  padding-bottom: 27px;
-  color: #ffffff;
 }
 
 .services-list {
@@ -532,10 +517,6 @@ body {
   display: flex;
 }
 
-.team-list-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .team-list-item {
   background: #FFFFFF;
 }
@@ -543,6 +524,10 @@ body {
 .team-list-item:hover {
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
+}
+
+.team-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .crewman-list-item-img {
@@ -626,14 +611,14 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-client-list-item-link-svg {
-  fill: currentColor;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .our-client-list-item-link:hover {
   border-color: #2196F3;
   color: #2196F3;
+}
+
+.our-client-list-item-link-svg {
+  fill: currentColor;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer {
@@ -725,10 +710,6 @@ body {
   display: flex;
 }
 
-.subscribe-form-input:focus {
-  outline: none;
-}
-
 .subscribe-input-subtitle {
   display: block;
   color: #ffffff;
@@ -749,6 +730,10 @@ body {
   border-radius: 4px;
   padding-left: 16px;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.submit-form-input:focus {
+  outline: none;
 }
 
 .submit-form-input::placeholder {
